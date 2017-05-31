@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.outer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #FBDA31;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+.inner {
+  max-width: 760px;
+  background-color: #ffffff;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+fieldset {
+  border: none;
+}
+
+.admin input, label {
+  display: inline;
+}
+
+.personal input, label {
+  display: inline;
+}
+
+.guest input, label {
+  display: inline;
+}
+
+.flex-row {
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-around;
+  list-style: none;
+  width: 90%;
+}
+
+.admin, .personal, .guest {
+  width: 30%;
+}
+
+.meta-container {
+  display: flex;
+  flex-direction: nowrap row;
+  justify-content: space-between;
+  margin: 0 4vw 0 3vw;
+}
+
+.container {
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: space-between;
+  width: 47%;
+}
+
+.name label, input {
+  display: block;
+  text-align: left;
+}
+
+.password label, input {
+  display: block;
+  text-align: left;
+}
+
+.email label, input {
+  display: block;
+  text-align: left;
+}
+
+.confirm-password label, input {
+  display: block;
+  text-align: left;
+}
+
+#name, #password, #email, #confirm-password {
+  width: 22vw;
+  height: 2.5vw;
+}
+
+.meta-container div label {
+  padding: 2vw 0 .75vw 0;
+}
+
+.footer {
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-between;
+  margin: 0 2.8vw 0 3vw;
+}
+
+.profile {
+  display: block;
+  margin: 2vw 0 1vw 0;
+}
+
+.profile label {
+  padding-right: 9vw;
+}
+
+.profile input {
+  margin-top: .75vw;
+}
+
+button {
+  font-size: 1.25vw;
+  width: 22vw;
+  height: 2.5vw;
+  border: solid 2px black;
+  border-radius: .5vw;
+  background: white;
+  margin-top: 3.5vw;
+
+}
