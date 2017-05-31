@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Profile Setup</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <div class="outer">
+    <section class="inner">
+      <h1>Sign up</h1>
+        <form class="sign-up" action="index.html" method="post">
+          <fieldset class="radio-buttons">
+            <ul class="flex-row">
+              <li class="admin">
+                <input type="radio" id="admin">
+                <label for="admin">admin</label>
+              </li>
+              <li class="personal">
+                <input type="radio" id="personal">
+                <label for="personal">personal</label>
+              </li>
+              <li class="guest">
+                <input type="radio" id="guest">
+                <label for="guest">guest</label>
+              </li>
+            </ul>
+          </fieldset>
+
+            <div class="meta-container">
+              <div class"container">
+                <div class="name">
+                  <label for="name">name</label>
+                  <input type="text" id="name">
+                </div>
+                <div class="password">
+                  <label class="password" for="password">password</label>
+                  <input class="password" type="password" id="password">
+                </div>
+              </div>
+              <div class="container">
+                <div class="email">
+                  <label class="email" for="email">email</label>
+                  <input class="email" type="email" id="email">
+                </div>
+                <div class="confirm-password">
+                  <label class="confirm-password" for="confirm-password">confirm password</label>
+                  <input class="confirm-passwordtype=" type:"password" id="confirm-password">
+                </div>
+              </div>
+            </div>
+
+          <div class="footer">
+            <div class="profile">
+              <label for="profile-pic">profile picture</label>
+              <input type="file" name="Choose File" id="profile-pic">
+            </div>
+            <button type="button">sign up</button>
+          </div>
+        </form>
+    </section>
+  </div>
+</body>
+</html>
